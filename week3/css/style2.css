@@ -1,7 +1,12 @@
 body {
-	background-image: url(http://drewfrist.github.io/week3/images/background.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: #000 url(http://drewfrist.github.io/week3/images/background.jpg) center no-repeat;
+  -moz-background-size: cover;
+  background-size: cover;
+	
+	
+	
+	
+	
 	font-family: "Helvetica", sans-serif;
 	margin: 0px;
 	padding: 0px;
