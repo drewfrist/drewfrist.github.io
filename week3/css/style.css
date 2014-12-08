@@ -1,7 +1,7 @@
 body {
 	background-image: url(http://drewfrist.github.io/week3/images/background.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
 	font-family: "Helvetica", sans-serif;
 	margin: 0px;
 	padding: 0px;
@@ -35,6 +35,7 @@ h1{
 
 
 .body {
-	vertical-align: center;
-	margin-left: 100px;
+	position: absolute;
+    left: 150px;
+    top: 200px;
 }
