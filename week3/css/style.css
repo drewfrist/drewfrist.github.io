@@ -1,8 +1,10 @@
 body {
 	background-image: url(http://drewfrist.github.io/week3/images/background.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% auto;
+	background-size: cover;
 	font-family: "Helvetica", sans-serif;
+	margin: 0px;
+	padding: 0px;
 }
 
 
@@ -22,19 +24,17 @@ h1{
 }
 
 .stripe{
-	vertical-align: top;
 	width: 100% auto;
 	height: 10px;
+	top: 0px;
 	background-image: url(http://drewfrist.github.io/week3/images/stripes.png);
 	background-image: repeat-y;
-	border: 1px solid red;
 }
 
 
 
 
 .body {
-	margin-top: 150px;
+	vertical-align: center;
 	margin-left: 100px;
-	border: 1px solid green;
 }
