@@ -33,7 +33,19 @@ h1{
 
 
 .body {
+	position: fixed;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    vertical-align: middle;
+    border:2px solid black;
+}
+
+
+.body2 {
 	position: absolute;
     left: 150px;
     top: 200px;
+    border:2px solid black;
 }
