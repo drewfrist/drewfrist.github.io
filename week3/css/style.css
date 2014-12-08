@@ -1,12 +1,40 @@
 body {
-	background-image: url(/images/background.jpg)
+	background-image: url(http://drewfrist.github.io/week3/images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	font-family: "Helvetica", sans-serif;
 }
 
-hr {
-	
-}
 
 a {
+	color: white;
+	text-decoration: none;
+	text-size: "30px"	
+}
+
+p{
+	color: white;
 	
-	
+}
+
+h1{
+	font-size:"30px"
+}
+
+.stripe{
+	vertical-align: top;
+	width: 100% auto;
+	height: 10px;
+	background-image: url(http://drewfrist.github.io/week3/images/stripes.png);
+	background-image: repeat-y;
+	border: 1px solid red;
+}
+
+
+
+
+.body {
+	margin-top: 150px;
+	margin-left: 100px;
+	border: 1px solid green;
 }
