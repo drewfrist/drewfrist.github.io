@@ -11,20 +11,33 @@
 #logo {
 	background-color: black;
 	margin: auto;
-	width: 250px;
+	width: 800px;
 	margin-top: 10px;
 }
 
-#body {
-	margin: auto;
-	text-align: center;
+#intro {
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	text-align: left;
 }
 
 #footer {
 	width: 100%
-	bottom: 0px;
-	height: 24px;
 	background-color: black;
+}
+
+#map {
+	position: absolute;
+    left: 0px;
+    width: 605px;
+}
+
+#address {
+	position: absolute;
+    right: 0px;
+    text-align: left;
+	
 }
 
 h1 {
@@ -33,4 +46,16 @@ h1 {
 
 p {
 	font-family: 'Crimson Text', serif;
+}
+
+#footertext {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(225, 225, 225, 1);
+	font-size: small;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	text-decoration: underline;
 }
