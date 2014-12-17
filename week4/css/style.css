@@ -9,43 +9,26 @@ p {
 	font-family: 'Crimson Text', serif;
 }
 
-
-
-a:link {
-    color: #bc4107;
-}
-
-/* visited link */
-a:visited {
-    color: #bc4107;
-}
-
-/* mouse over link */
-a:hover {
+#menu a:link {
     color: #ffffff;
+    text-decoration: none;
 }
 
-/* selected link */
-a:active {
+#menu a:visited {
+    color: rgba(225, 225, 225, 1);
+    text-decoration: none;
+}
+
+#menu a:hover {
     color: #bc4107;
+    text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#menu a:active {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
 
 .more {
 	font-family: 'Crimson Text', serif;
@@ -100,16 +83,15 @@ body {
     text-align: center;
     margin: 0 auto;
     padding: 0 auto;
-    display: table;
+    display: inline-block;
     overflow: hidden;
 }
 
 #menu li{
     float: left;
-    width: 250px;
     padding-left: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
+    margin-right: 145px;
 }
 
 #logo {
@@ -122,7 +104,7 @@ body {
 .currentpage {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-	color: #bc4107;
+	color: #fff2cf;
 }
 
 
