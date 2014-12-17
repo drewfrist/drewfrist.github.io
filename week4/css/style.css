@@ -1,14 +1,54 @@
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-family: 'Crimson Text', serif;
+}
+
+.secondtext {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(225, 225, 225, 1);
+	font-size: small;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
 body {
-    margin: 0;
-    padding: 0;
+	margin: 0px;
+	padding: 0px;
+	
 }
 
 #screen1 {
     background-color: #fff2cf;
     background-image: url(http://drewfrist.github.io/week4/images/fishbg2.png);
     background-image: repeat-y;
-	top: 0px;
 	height: 800px;
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu {
+	max-width: 100%;
+	height: 30px;
+	padding-top: 1px;
+	background-color: black;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.menutext {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 #logo {
@@ -18,12 +58,7 @@ body {
 	margin-top: 315px;
 }
 
-#introtext {
-	margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-	text-align: left;
-}
+
 
 #screen2 {
 	margin:0;
@@ -32,14 +67,19 @@ body {
 }
 
 
+#introtext {
+	margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	text-align: left;
+}
+
 #bottombar {
 	background-color: black;
 	height: 150px;
 	margin-bottom: 0;
 	padding: 0;
 }
-
-
 
 #map {
 	float:left;
@@ -54,24 +94,4 @@ body {
 	background-color: black;
 	padding-top: 25px;
 	
-}
-
-h1 {
-	font-family: 'Montserrat', sans-serif;
-}
-
-p {
-	font-family: 'Crimson Text', serif;
-}
-
-#footertext {
-	font-family: 'Montserrat', sans-serif;
-	color: rgba(225, 225, 225, 1);
-	font-size: small;
-}
-
-h4 {
-	font-family: 'Montserrat', sans-serif;
-	color: #ffffff;
-	text-decoration: underline;
 }
