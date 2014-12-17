@@ -1,15 +1,27 @@
 h1 {
 	font-family: 'Montserrat', sans-serif;
+	border-bottom: 4px solid #bc4107;
+	display: inline-block;
+	margin-bottom: 0em;
 }
 
 p {
 	font-family: 'Crimson Text', serif;
 }
 
+
+.more {
+	font-family: 'Crimson Text', serif;
+	font-size: small;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #bc4107;
+}
+
 h4 {
 	font-family: 'Montserrat', sans-serif;
-	color: #ffffff;
-	text-decoration: underline;
+	color: #bc4107;
+	margin-bottom: 0em;
 }
 
 body {
@@ -38,10 +50,7 @@ body {
 	color: white;
 	text-align: center;
 }
-
 	
-}
-
 #menu p {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
@@ -53,15 +62,15 @@ body {
     list-style-type: none;
     text-align: center;
     margin: 0 auto;
-    padding: 0px;
+    padding: 0 auto;
     display: table;
     overflow: hidden;
 }
 
 #menu li{
     float: left;
-    padding: 2px;
-    width: 200px;
+    width: 250px;
+    padding-left: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -70,9 +79,14 @@ body {
 	background-color: black;
 	margin: auto;
 	width: 800px;
-	margin-top: 315px;
+	margin-top: 300px;
 }
 
+.currentpage {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #bc4107;
+}
 
 
 #screen2 {
@@ -81,11 +95,17 @@ body {
 
 }
 
+.blackborder {
+	max-width: 100%;
+	height: 50px;
+	background-color: black;
+}
+
 
 #introtext {
 	margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 800px;
 	text-align: left;
 }
 
