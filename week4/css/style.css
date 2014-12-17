@@ -10,12 +10,49 @@ p {
 }
 
 
+
+a:link {
+    color: #bc4107;
+}
+
+/* visited link */
+a:visited {
+    color: #bc4107;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ffffff;
+}
+
+/* selected link */
+a:active {
+    color: #bc4107;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .more {
 	font-family: 'Crimson Text', serif;
 	font-size: small;
 	font-weight: bold;
 	font-variant: small-caps;
-	color: #bc4107;
+	color: #ae3c08;
 }
 
 h4 {
