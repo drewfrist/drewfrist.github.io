@@ -25,23 +25,34 @@ body {
 	text-align: left;
 }
 
-#screen2 [
+#screen2 {
 	margin:0;
 	padding:0;
-	
-]
 
-#blackbar {
-	width: 100%
-	background-color: black;
 }
+
+
+#bottombar {
+	background-color: black;
+	height: 150px;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+
 
 #map {
 	float:left;
+	width: 200px;
+	background-color: black;
+	padding-top: 25px;
 }
 
 #address {
 	float: right;
+	width: 400px;
+	background-color: black;
+	padding-top: 25px;
 	
 }
 
