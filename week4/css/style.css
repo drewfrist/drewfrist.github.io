@@ -139,10 +139,9 @@ h4 {
 }
 
 .bottomcontain {
-	max-width: 900px;
+	max-width: 850px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 900px;
 	border: aqua solid;
 }
 
@@ -156,6 +155,7 @@ h4 {
 	float: left;
     width: 160px;
     margin-top: -10px;
+    margin-left: 50px;
 
 }
 
