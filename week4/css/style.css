@@ -70,6 +70,7 @@ h4 {
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 	text-align: left;
+	border: aqua solid;
 }
 
 
@@ -140,7 +141,7 @@ h4 {
 
 .bottomcontain {
 	max-width: 700px;
-	margin-left: auto;
+	margin-left: 180px;
 	margin-right: auto;
 }
 
