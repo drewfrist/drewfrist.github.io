@@ -1,3 +1,8 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	border-bottom: 4px solid #bc4107;
@@ -44,12 +49,6 @@ h4 {
 	margin-bottom: 0em;
 }
 
-body {
-	margin: 0;
-	padding: 0;
-	
-}
-
 #screen1 {
     background-color: #fff2cf;
     background-image: url(http://drewfrist.github.io/week4/images/fishbg2.png);
@@ -63,38 +62,40 @@ body {
 #menu {
 	max-width: 100%;
 	height: 50px;
-	padding: 3px;
-	margin-left: auto;
-	margin-right: auto;
+	padding-top: 3px;
+	padding-left: 180px;
+	margin: 0px;
 	background-color: black;
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-	text-align: center;
-}
-	
-#menu p {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	color: #ffffff;
-	text-decoration: none;
+	text-align: left;
 }
 
-#menu ul {
-    list-style-type: none;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0 auto;
-    display: inline-block;
-    overflow: hidden;
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  background: black;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: nowrap;
+  justify-content: center;
 }
 
-#menu li{
-    float: left;
-    padding-left: auto;
-    margin-left: 0px;
-    margin-right: 145px;
+.navigation a {
+  text-decoration: none;
+  color: #bc4107;
+  padding: 5.1em;
 }
+
+
+
+
+
 
 #logo {
 	background-color: black;
@@ -137,10 +138,17 @@ body {
 	padding-top: 30px;
 }
 
+.bottomcontain {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	border: aqua solid;
+}
+
 .map {
 	float: left;
     width: 305px;
-    margin-left: 180px;
 
 }
 
@@ -148,7 +156,6 @@ body {
 	float: left;
     width: 160px;
     margin-top: -10px;
-    margin-left: 50px;
 
 }
 
